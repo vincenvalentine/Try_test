@@ -30,9 +30,6 @@
     margin-top: 25vh;
 }
 
-/* .jumbotron p {
-    color: white;
-} */
 
 .jumbotron .btn p {
     font-size: 20px;
@@ -65,7 +62,7 @@
 .footer {
     height: 75px;
     margin-top: -32px;
-    background-color: rgb(8, 23, 77);   
+    background-color: rgb(5, 3, 40);   
 }
 
 .footer p {
@@ -76,7 +73,7 @@
 .ads {
     position: absolute;
     margin-top: -220px;
-    background-color: rgba(23, 114, 160, 0.767)
+    background-color: rgba(24, 132, 197, 0.900)
 
 }
 

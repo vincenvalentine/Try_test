@@ -20,11 +20,11 @@ $( '#btn-notif' ).click(function() {
 // btn-ads
 
 $( '#btn-close' ).click(function() {
-  $( '#ads' ).slideToggle(500);
+  $( '#ads' ).slideToggle(800);
 });
 
 $("#btn-close").on("click", function(){
   setTimeout(function(){
-    $('#ads').show();
-  }, 60000)
+    $('#ads').slideToggle();
+  }, 10000)
 });
