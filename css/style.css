@@ -8,7 +8,7 @@
     background-size: cover;
     position: relative;
     margin-top: -72px;
-    height: 800px;
+    height: 700px;
 }
 
 .layer {
@@ -71,6 +71,19 @@
 .footer p {
     padding-top: 25px;
     color: white;
+}
+
+.ads-con {
+    position: absolute;
+    margin-top: -220px;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.ads {
+    position: absolute;
+    margin-top: -220px;
+    background-color: rgba(23, 114, 160, 0.767)
+
 }
 
 
