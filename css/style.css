@@ -1,0 +1,95 @@
+
+.row span {
+    color: blue;
+}
+
+.bg-jumbo {
+    background-image: url(../img/Background.jpg);
+    background-size: cover;
+    position: relative;
+    margin-top: -72px;
+    height: 800px;
+}
+
+.layer {
+    background-color: rgba(0, 44, 66, 0.712);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-notif {
+    margin-left: 20px;
+    height: 40px;
+}
+
+
+.jumbotron h3 {
+    margin-top: 25vh;
+}
+
+/* .jumbotron p {
+    color: white;
+} */
+
+.jumbotron .btn p {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.jumbotron .container {
+    margin: auto;
+}
+
+
+.btn:hover {
+    color: black;
+}
+
+.jumbo-main {
+    margin-top: -50px;
+}
+
+.card-main {
+    height: 155px;
+}
+
+.card-main p {
+    font-size: 12px;
+}
+
+
+.footer {
+    height: 75px;
+    margin-top: -32px;
+    background-color: rgb(8, 23, 77)
+}
+
+.footer p {
+    padding-top: 25px;
+    color: white;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .center {
+        display: block;
+        text-align: left;
+    }    
+
+    .btn-notif {
+        margin-left: 0 !important;
+    }
+}
+
+
+@media (max-width: 425px) {
+
+    .card {
+       margin: 0 -10vw;
+    }
+}
