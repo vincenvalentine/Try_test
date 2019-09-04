@@ -65,18 +65,12 @@
 .footer {
     height: 75px;
     margin-top: -32px;
-    background-color: rgb(8, 23, 77)
+    background-color: rgb(8, 23, 77);   
 }
 
 .footer p {
     padding-top: 25px;
     color: white;
-}
-
-.ads-con {
-    position: absolute;
-    margin-top: -220px;
-    background-color: rgba(0, 0, 0, 0)
 }
 
 .ads {
@@ -97,6 +91,12 @@
     .btn-notif {
         margin-left: 0 !important;
     }
+
+    .ads {
+        width: 20rem !important;
+        font-size: 10px;
+        margin-top: -27vh;
+    }
 }
 
 
@@ -104,5 +104,11 @@
 
     .card {
        margin: 0 -10vw;
+    }
+
+    .ads {
+        width: 20rem !important;
+        font-size: 10px;
+        margin-top: -27vh;
     }
 }
